@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+body footer{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+input.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #dd3333;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:hover, a:focus{
+    outline: none;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.primary{
+    background: linear-gradient(90deg, #5472F6 0%, #DD3EF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.bg-main{
+    background: linear-gradient(45deg, #5472F6 0%, #DD3EF0 100%);
+}
+.btn-shadow{
+    box-shadow: 0px 10px 40px rgba(255, 116, 56, 0.29);
+}
+.color-gray{
+	color: #B6B6BE;
+}
+.color-green{
+	color: #11C623;
+}
+.mr-12{
+	margin-right: 12px;
+}
